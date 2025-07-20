@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    background-color: #A7D2CB; /* Light green background */
+    color: #e7b641; /* Yellow text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #874C62; /* Dark pink color for headings */
+}
+
+/* Card Container Styles */
+.card-container {
+    background-color: #ffffff; /* Light green background for the card */
+    border: 1px solid #C98474; /* Light pink border */
+    border-radius: 10px;
+    width: 400px; /* Adjust width as needed */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #874C62; /* Dark pink border */
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+button:focus {
+    outline: none;
+}
+
+/* Cost Display Styles */
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#calculatedCost {
+    color: #F2D388; /* Yellow text color for cost */
+    font-size: 24px;
+}
+
+/* Button Styles */
+button {
+    background-color: #C98474; /* Light pink background for the button */
+    color: #fff; /* White text color */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #874C62; /* Light green on hover */
+}

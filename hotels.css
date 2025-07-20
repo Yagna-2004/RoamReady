@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    background-color: #A7D2CB; /* New background color */
+    color: #f2b988; /* New text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #F2D388; /* New color for headings */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Filter Form Styles */
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filter-select {
+    margin: 10px;
+}
+
+/* Hotel Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #f09c1e; /* New border color */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff; /* New background color for table headers */
+    color: #874C62; /* New text color for table headers */
+}
+
+/* Amenities Column Styles */
+.amenities-column {
+    width: 30%; /* Reduce the width of the amenities column */
+    transition: width 0.3s; /* Add a smooth transition effect */
+}
+
+.amenities-column:hover {
+    width: 30%; /* Reduce width on hover */
+}
+
+.amenities-list {
+    display: none;
+    position: absolute;
+    background-color: #C98474; /* New background color */
+    padding: 10px;
+    border: 1px solid #874C62; /* New border color */
+}
+
+.amenities-column:hover .amenities-list {
+    display: block;
+    width: min-content;
+}
+
+.amenity-item {
+    font-weight: bold;
+}
+
+/* "Book Now" Button Styles */
+.book-button {
+    background-color: #c06c8b; /* New background color for the button */
+    color: #874C62; /* New text color */
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.book-button:hover {
+    background-color: #C98474; /* New background color on hover */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #A7D2CB; /* New background color */
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 15px 0; /* Increase vertical padding to increase the height */
+}
+
+/* Logo Styles */
+.logo {
+    float: left;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #874C62; /* New color */
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #A7D2CB; /* New background color */
+    text-align: center;
+    padding: 15px 0; /* Increase footer height */
+    font-size: 16px;
+    width: 100%; /* Full-width footer */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top of the footer */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+footer:hover {
+    color: #F2D388; /* New text color on hover */
+}
+
+/* Content Container Styles */
+.content-container {
+    background-color: #ffffff; /* New background color */
+    border: 1px solid #C98474; /* New border color */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    width: 60%; /* Adjust the width as needed */
+}

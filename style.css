@@ -1,0 +1,422 @@
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #A7D2CB;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+/* Hero Section Styles */
+.hero {
+background-image: url('./pics/1534749660_munna.jpg');
+background-size: cover;
+background-position:50%;
+color: #fff;
+padding: 100px 0;
+text-align: center;
+}
+
+
+.hero-title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+/* About Section Styles */
+.about {
+  background-color: #F2D388;
+  color: #874C62;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  color: #C98474;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* Destination Section Styles */
+.destination {
+  background-color: #A7D2CB;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.destination-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.destination-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.destination-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-img img {
+  width: 100%; /* Ensure the image takes up the full width of its container */
+  height: 300px; /* Set a fixed height for all destination images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}  
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #A7D2CB;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #F2D388;
+}
+
+/* Packages Section Styles */
+.packages {
+  background-color: #F2D388;
+  color: #874C62;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.package-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.package-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.package-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.package-card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for all package images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}  
+
+.package-card .card-content {
+  padding: 20px;
+}
+
+/* Gallery Section Styles */
+.gallery {
+background-color: #A7D2CB;
+color: #fff;
+padding: 100px 0;
+text-align: center;
+}
+
+.gallery-list {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+flex-wrap: wrap; /* Allow gallery items to wrap to the next line */
+}
+
+.gallery-item {
+flex: 1 0 25%; /* Ensure each item takes up 25% of the container width */
+margin: 0 10px;
+}
+
+.gallery-image {
+width: 100%;
+height: 200px; /* Set a fixed height for all gallery images */
+overflow: hidden; /* Ensure images don't overflow their containers */
+}
+
+.gallery-image img {
+width: 100%;
+height: 100%; /* Ensure the image fills the container */
+object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+
+/* Contact Section Styles */
+.contact {
+  background-color: #C98474;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #874C62;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #6F3D4D;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #F2D388;
+  color: #874C62;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  flex: 1 0 300px;
+}
+
+.footer-contact,
+.footer-social {
+  flex: 1 0 200px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item ion-icon {
+  margin-right: 10px;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-list .social-link {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #874C62;
+}
+
+.social-list .social-link:hover {
+  color: #6F3D4D;
+}
+
+/* Go to Top Button Styles */
+.go-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #874C62;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+.go-top:hover {
+  background-color: #6F3D4D;
+}
+
+.navbar-list {
+display: flex;
+justify-content: center; /* Horizontally aligns items in the center */
+align-items: center; /* Vertically aligns items in the center */
+list-style-type: none; /* Removes bullet points */
+padding: 0; /* Removes default padding */
+}
+
+.navbar-list li {
+margin: 0 15px; /* Adds some spacing between the list items */
+}
+
+.navbar-link {
+text-decoration: none;
+color: #fff; /* Assuming your text color is white */
+padding: 10px 15px; /* Adds some padding around the text */
+border-radius: 5px; /* Optional: Adds rounded corners */
+transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-link:hover {
+background-color: rgba(255, 255, 255, 0.1); /* Adds a subtle background color on hover */
+}
+
+/* ... Existing CSS ... */
+
+/* Centered Logo and Title */
+.logo-title-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.logo {
+margin-right: 10px; /* Adds some space between logo and title */
+}
+
+.header-title {
+margin: 0;
+font-size: 50px;
+font-weight: 700;
+color: #874C62;
+}
+
+/* ... Existing CSS ... */
+
+.header-top {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo-title-container {
+display: flex;
+align-items: center;
+}
+
+.logo {
+margin-right: 10px; /* Add some margin for spacing between logo and title */
+}
+
+.header-title {
+font-size: 2rem; /* Adjust the font size as needed */
+}
+
+button{
+background-color: #874C62;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button{
+  background-color: #6F3D4D;
+}
+/* ... Existing Styles ... */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #874C62;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #6F3D4D;
+}
